@@ -29,18 +29,16 @@ jobs:
       shell: bash
 
     - name: 编译项目 (Colcon Build)
+      # 设置整个步骤的工作目录为代码根目录，彻底解决 cd 路径问题
+      working-directory: ${{ github.workspace }}
       run: |
         source /opt/ros/humble/setup.bash
-        # 使用 GitHub 自动分配的相对路径，不再依赖硬编码的绝对路径
-        cd ${{ github.workspace }}
-        # 编译当前工作空间下的所有包
         colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
       shell: bash
 
     - name: 运行测试 (Colcon Test)
+      working-directory: ${{ github.workspace }}
       run: |
-        source /opt/ros/humble/setup.bash
-        cd ${{ github.workspace }}
-        # 运行所有包的测试，如果只想测试特定包，可以改为 --packages-select my_ci_pkg
+        source ${{ github.workspace }}/install/setup.bash
         colcon test
       shell: bash
