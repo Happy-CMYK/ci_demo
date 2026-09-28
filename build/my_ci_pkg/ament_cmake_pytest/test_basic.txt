@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/lr/ci_demo/build/my_ci_pkg':
+ - /usr/bin/python3 -u -m pytest /home/lr/ci_demo/src/my_ci_pkg/test/test_basic.py -o cache_dir=/home/lr/ci_demo/build/my_ci_pkg/ament_cmake_pytest/test_basic/.cache --junit-xml=/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml --junit-prefix=my_ci_pkg
+
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/my_ci_pkg/ament_cmake_pytest/test_basic/.cache
+rootdir: /home/lr/ci_demo
+plugins: ament-flake8-0.17.5, ament-pep257-0.17.5, ament-lint-0.17.5, launch-testing-ros-0.26.11, ament-xmllint-0.17.5, launch-testing-3.4.10, ament-copyright-0.17.5, colcon-core-0.20.1, typeguard-4.1.5, cov-4.1.0
+collected 1 item
+
+../../src/my_ci_pkg/test/test_basic.py .                                 [100%]
+
+- generated xml file: /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml -
+============================== 1 passed in 0.04s ===============================
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml'

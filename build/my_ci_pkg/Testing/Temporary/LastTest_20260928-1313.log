@@ -1,0 +1,136 @@
+Start testing: Sep 28 21:13 CST
+----------------------------------------------------------
+1/5 Testing: flake8
+1/5 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/flake8.xunit.xml" "--package-name" "my_ci_pkg" "--output-file" "/home/lr/ci_demo/build/my_ci_pkg/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/flake8.xunit.xml"
+Directory: /home/lr/ci_demo/src/my_ci_pkg
+"flake8" start time: Sep 28 21:13 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/lr/ci_demo/src/my_ci_pkg':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/flake8.xunit.xml
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./test/test_basic.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/flake8.xunit.xml'
+<end of output>
+Test time =   0.99 sec
+----------------------------------------------------------
+Test Passed.
+"flake8" end time: Sep 28 21:13 CST
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: lint_cmake
+2/5 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/lint_cmake.xunit.xml" "--package-name" "my_ci_pkg" "--output-file" "/home/lr/ci_demo/build/my_ci_pkg/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/lint_cmake.xunit.xml"
+Directory: /home/lr/ci_demo/src/my_ci_pkg
+"lint_cmake" start time: Sep 28 21:13 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/lr/ci_demo/src/my_ci_pkg':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Sep 28 21:13 CST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: pep257
+3/5 Test: pep257
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml" "--package-name" "my_ci_pkg" "--output-file" "/home/lr/ci_demo/build/my_ci_pkg/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml"
+Directory: /home/lr/ci_demo/src/my_ci_pkg
+"pep257" start time: Sep 28 21:13 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/lr/ci_demo/src/my_ci_pkg':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml
+checking ./test/test_basic.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml'
+<end of output>
+Test time =   0.82 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Sep 28 21:13 CST
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: xmllint
+4/5 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/xmllint.xunit.xml" "--package-name" "my_ci_pkg" "--output-file" "/home/lr/ci_demo/build/my_ci_pkg/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/xmllint.xunit.xml"
+Directory: /home/lr/ci_demo/src/my_ci_pkg
+"xmllint" start time: Sep 28 21:13 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/lr/ci_demo/src/my_ci_pkg':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/xmllint.xunit.xml'
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Sep 28 21:13 CST
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/5 Testing: test_basic
+5/5 Test: test_basic
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml" "--package-name" "my_ci_pkg" "--output-file" "/home/lr/ci_demo/build/my_ci_pkg/ament_cmake_pytest/test_basic.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/lr/ci_demo/src/my_ci_pkg/test/test_basic.py" "-o" "cache_dir=/home/lr/ci_demo/build/my_ci_pkg/ament_cmake_pytest/test_basic/.cache" "--junit-xml=/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml" "--junit-prefix=my_ci_pkg"
+Directory: /home/lr/ci_demo/build/my_ci_pkg
+"test_basic" start time: Sep 28 21:13 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/lr/ci_demo/build/my_ci_pkg':
+ - /usr/bin/python3 -u -m pytest /home/lr/ci_demo/src/my_ci_pkg/test/test_basic.py -o cache_dir=/home/lr/ci_demo/build/my_ci_pkg/ament_cmake_pytest/test_basic/.cache --junit-xml=/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml --junit-prefix=my_ci_pkg
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: build/my_ci_pkg/ament_cmake_pytest/test_basic/.cache
+rootdir: /home/lr/ci_demo
+plugins: ament-flake8-0.17.5, ament-pep257-0.17.5, ament-lint-0.17.5, launch-testing-ros-0.26.11, ament-xmllint-0.17.5, launch-testing-3.4.10, ament-copyright-0.17.5, colcon-core-0.20.1, typeguard-4.1.5, cov-4.1.0
+collected 1 item
+
+../../src/my_ci_pkg/test/test_basic.py .                                 [100%]
+
+- generated xml file: /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml -
+============================== 1 passed in 0.04s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/test_basic.xunit.xml'
+<end of output>
+Test time =   1.23 sec
+----------------------------------------------------------
+Test Passed.
+"test_basic" end time: Sep 28 21:13 CST
+"test_basic" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Sep 28 21:13 CST
+
+flake8 =   0.99 sec*proc
+
+lint_cmake =   0.44 sec*proc
+
+linter =   3.79 sec*proc
+
+pep257 =   0.82 sec*proc
+
+pytest =   1.23 sec*proc
+
+xmllint =   1.53 sec*proc
+

@@ -1,0 +1,9 @@
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/uninstall.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/my_ci_pkg_uninstall.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/test.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/edit_cache.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/rebuild_cache.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/list_install_components.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/install.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/install/local.dir
+/home/lr/ci_demo/build/my_ci_pkg/CMakeFiles/install/strip.dir

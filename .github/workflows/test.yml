@@ -1,0 +1,14 @@
+name: ROS2 CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    container: ros:humble
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          source /opt/ros/humble/setup.bash
+          colcon build
+          colcon test
+          colcon test-result --verbose

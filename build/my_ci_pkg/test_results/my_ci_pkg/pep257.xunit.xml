@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="my_ci_pkg.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.023"
+>
+  <testcase
+    name="./test/test_basic.py"
+    classname="my_ci_pkg.pep257"/>
+  <system-out>Checked files:
+* ./test/test_basic.py</system-out>
+</testsuite>
