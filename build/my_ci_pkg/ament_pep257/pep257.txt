@@ -1,9 +1,0 @@
--- run_test.py: invoking following command in '/home/lr/ci_demo/src/my_ci_pkg':
- - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml
-
-checking ./test/test_basic.py
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/lr/ci_demo/build/my_ci_pkg/test_results/my_ci_pkg/pep257.xunit.xml'
